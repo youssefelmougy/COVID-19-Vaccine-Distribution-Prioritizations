@@ -18,7 +18,7 @@ The first part of this project analyzes COVID-19 vaccination prioritization usin
 2. Vaccine_Prioritization_CA.ipynb - a python jupyter notebook containing the Cellular Automata model simulation
 3. Vaccine_Prioritization_SEIR.ipynb - a python jupyter notebook containing the SEIR model simulation
 
-## Model Results
+## Model Results: The Prioritized Age Group
 
 Which age group should be prioritized in the vaccine distribution?
 
