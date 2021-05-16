@@ -20,7 +20,7 @@ The first part of this project analyzes COVID-19 vaccination prioritization usin
 
 ## Model Results: The Prioritized Age Group
 
-Which age group should be prioritized in the vaccine distribution?
+***Which age group should be prioritized in the vaccine distribution?***
 
 Given that there is only a limited quantity of the COVID-19 vaccines available, the goal of the project was to create a simulation in order to arrive at a well-motivated and data-driven decision on which age group to prioritize in the vaccine distribution plan with the goal of slowing down infections and decreasing death rates.
 Both models provided very rich and data-driven results that simulate the different scenarios of prioritizing one of the five age groups. In order to arrive at an answer to our question, we need to evaluate each of the two goals we had.
