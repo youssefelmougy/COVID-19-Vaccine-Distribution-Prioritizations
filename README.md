@@ -32,8 +32,8 @@ The following figures show the reduction in infections by prioritizing each of t
 
 <table>
   <tr>
-    <td valign="top"><img src="src/Vaccine%20Prioritization%20-%20CA_54_1.png" width="100"></td>
-    <td valign="top"><img src="src/Vaccine%20Prioritization%20-%20SEIR_42_1.png" width="100"></td>
+    <td valign="top"><img src="src/CA_54_1.png" width="500"></td>
+    <td valign="top"><img src="src/SEIR_42_1.png" width="500"></td>
   </tr>
   <tr>
     <td>Cellular Automata Model</td>
