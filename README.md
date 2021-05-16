@@ -41,34 +41,33 @@ The following figures show the reduction in infections by prioritizing each of t
   </tr>
  </table>
 
+The results produced by both models are very close. The first striking observation to notice is that both models conclude that prioritizing the 40-59 years age group consistently produces the lowest reductions in infections. 
+This can be seen by the data line of the age group being the lowest in both models. 
+In both models, the under 20 and 60-79 years age group data lines are the highest and produce the largest reductions in infections consistently. 
+Using this observation, it suffices to say that the under 20 and 60-79 years age groups should be prioritized given that our goal is to slow down infections.
 
-ss
+### Decreasing death rates
+Consistent with the previous observations, it can as well be seen that both models conclude that the vaccinated scenarios produce a higher reduction in deaths than that of a non-vaccinated scenario. 
+The following figures show the reduction in deaths by prioritizing each of the age groups in both the CA and SEIR models.
 
-\begin{figure}[h]
-    \centering
-    \subfloat[\centering Cellular Automata Model]{{\includegraphics[width=7.1cm]{Vaccine Prioritization - CA_files/Vaccine Prioritization - CA_54_1.png} }}%
-    \qquad
-    \subfloat[\centering SEIR Model]{{\includegraphics[width=7.1cm]{Vaccine Prioritization - SEIR_files/Vaccine Prioritization - SEIR_42_1.png} }}%
-    \caption{Reductions in infections by age group for both CA and SEIR models.}%
-    \label{fig:reductioninfections}%
-\end{figure}
+<table>
+  <tr>
+    <td valign="top"><img src="src/CA_54_0.png" width="500"></td>
+    <td valign="top"><img src="src/SEIR_42_0.png" width="500"></td>
+  </tr>
+  <tr>
+    <td>Cellular Automata Model</td>
+     <td>SEIR Model</td>
+  </tr>
+ </table>
 
-The results produced by both models are very close. The first striking observation to notice is that both models conclude that prioritizing the 40-59 years age group consistently produces the lowest reductions in infections. This can be seen by the data line of the age group being the lowest in both models. In both models, the under 20 and 60-79 years age group data lines are the highest and produce the largest reductions in infections consistently. Using this observation, it suffices to say that the \textit{under 20} and \textit{60-79 years} age groups should be prioritized given that our goal is to slow down infections.
-\vspace{\baselineskip}
+Once again, the results produced by both models are very close. The first striking observation to notice is that both models agree that prioritizing the over 80 age group consistently produces the lowest reductions in deaths. This can be seen in the figure through the data line of the age group being the lowest in both models. In the CA model, the under 20 age group produces the largest reduction in deaths, closely followed by the 20-39 age group. Similarly, in the SEIR model, the 20-39 age group produces the largest reduction in deaths. Due to the variation in results from both models, our finalized result should as well include a bias from the age group chosen to prioritize in the first goal.
 
-\textbf{Decreasing death rates}
-Consistent with the previous observations, it can as well be seen that both models conclude that the vaccinated scenarios produce a higher reduction in deaths than that of a non-vaccinated scenario. Figure~\ref{fig:reductiondeaths} shows the reduction in deaths by prioritizing each of the age groups in both the CA and SEIR models.
+Overall, to slow down infections it is important to prioritize the under 20 or 60-79 years age groups, while to decrease death rates it is important to prioritize the under 20 or 20-39 age groups. Bringing both results together, we are able to make a robust decision. Considering that prioritizing the under 20 age group in the vaccine distribution consistently produced far better results as compared to the other age groups, it is apparent that they are the age group to be chosen in order to meet both goals of the project. 
 
-\begin{figure}[h]
-    \centering
-    \subfloat[\centering Cellular Automata Model]{{\includegraphics[width=7.1cm]{Vaccine Prioritization - CA_files/Vaccine Prioritization - CA_54_0.png} }}%
-    \qquad
-    \subfloat[\centering SEIR Model]{{\includegraphics[width=7.1cm]{Vaccine Prioritization - SEIR_files/Vaccine Prioritization - SEIR_42_0.png} }}%
-    \caption{Reductions in deaths by age group for both CA and SEIR models.}%
-    \label{fig:reductiondeaths}%
-\end{figure}
+**Therefore, using the results from both the CA and SEIR models, our well-motivated and data-driven decision is to prioritize the Under 20 age group in the vaccine distribution with the goal of slowing down infections and decreasing death rates.**
 
-Once again, the results produced by both models are very close. The first striking observation to notice is that both models agree that prioritizing the over 80 age group consistently produces the lowest reductions in deaths. This can be seen in Figure 2 through the data line of the age group being the lowest in both models. In the CA model, the under 20 age group produces the largest reduction in deaths, closely followed by the 20-39 age group. Similarly, in the SEIR model, the 20-39 age group produces the largest reduction in deaths. Due to the variation in results from both models, our finalized result should as well include a bias from the age group chosen to prioritize in the first goal.
-\vspace{\baselineskip}
 
-Overall, to slow down infections it is important to prioritize the under 20 or 60-79 years age groups, while to decrease death rates it is important to prioritize the under 20 or 20-39 age groups. Bringing both results together, we are able to make a robust decision. Considering that prioritizing the under 20 age group in the vaccine distribution consistently produced far better results as compared to the other age groups, it is apparent that they are the age group to be chosen in order to meet both goals of the project. \textbf{Therefore, using the results from both the CA and SEIR models, our well-motivated and data-driven decision is to prioritize the \textit{Under 20 age group} in the vaccine distribution with the goal of slowing down infections and decreasing death rates.}
+---
+
+Open the PDF to view the full report of the project along with a tutorial of each simulation model.
